@@ -10,7 +10,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.sonatype.m2e.antlr</groupId>
+    <groupId>org.sonatype.m2e.extras</groupId>
     <artifactId>org.sonatype.m2e.antlr.parent</artifactId>
     <version>0.15.0-SNAPSHOT</version>
   </parent>
