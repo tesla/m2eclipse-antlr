@@ -11,16 +11,16 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>io.tesla.tycho</groupId>
+    <groupId>io.takari.tycho</groupId>
     <artifactId>tycho-support</artifactId>
-    <version>0.0.12</version>
+    <version>0.15.0</version>
   </parent>
-    
+
   <!--
   <groupId>org.sonatype.m2e.antlr</groupId>  
   Use exising groupId for now until we figure out how to migrate people. If it matters.
   -->
-  <groupId>org.sonatype.m2e.extras</groupId>  
+  <groupId>org.sonatype.m2e.extras</groupId>
   <artifactId>org.sonatype.m2e.antlr.parent</artifactId>
   <version>0.15.0-SNAPSHOT</version>
   <packaging>pom</packaging>
@@ -29,16 +29,8 @@
   <properties>
     <repositoryPathId>m2eclipse-antlr</repositoryPathId>
     <p2MetadataName>M2E Antlr Connector</p2MetadataName>
-  </properties>  
-  
-  <repositories>
-    <repository>
-      <id>m2e-tests</id>
-      <url>https://repository.sonatype.org/content/sites/forge-sites/m2e/1.1.0/N/1.1.0.20120622-0806/</url>
-      <layout>p2</layout>
-    </repository>      
-  </repositories>  
-    
+  </properties>
+
   <modules>
     <module>org.sonatype.m2e.antlr</module>
     <module>org.sonatype.m2e.antlr.feature</module>
